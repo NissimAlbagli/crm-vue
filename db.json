@@ -1,12 +1,31 @@
 {
-    "clientes": [
-        {
-            "nombre": "Juan",
-            "id": 1
-        },
-        {
-            "nombre": "Otro Juan",
-            "id": 2
-        }
-    ]
+  "clientes": [
+    {
+      "id": "c77c",
+      "nombre": "Nissim",
+      "apellido": "Albagli",
+      "email": "correo@correo.com",
+      "telefono": "123-123-1233",
+      "empresa": "Codigo con Juan",
+      "puesto": "Full Stack Developer"
+    },
+    {
+      "id": "ce63",
+      "nombre": "Nissim (Con router)",
+      "apellido": "Albagli",
+      "email": "nissimalbagli@gmail.com",
+      "telefono": "123-123-1233",
+      "empresa": "Codigo con Juan",
+      "puesto": "Full Stack Developer"
+    },
+    {
+      "id": "4f88",
+      "nombre": "Nissim con name",
+      "apellido": "Albagli",
+      "email": "nissimalbagli@gmail.com",
+      "telefono": "123-123-1233",
+      "empresa": "Codigo con Juan",
+      "puesto": "Full Stack Developer"
+    }
+  ]
 }
