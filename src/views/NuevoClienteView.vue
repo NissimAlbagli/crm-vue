@@ -1,5 +1,5 @@
 <script setup>
-    import axios from 'axios';
+    import ClienteService from '../services/ClienteService';
     import { FormKit} from '@formkit/vue';
     import {useRouter} from 'vue-router';
     import RouterLink from '../components/UI/RouterLink.vue';
@@ -14,7 +14,8 @@
     })
 
     const handleSubmit = (data) => {
-        axios.post('http://localhost:4000/clientes', data)
+        data.estado = 1;
+        ClienteService.agregarCliente(data)
             .then(respuesta => {
                 console.log(respuesta);
                 // Redireccionar
