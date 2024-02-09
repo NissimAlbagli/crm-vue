@@ -3,6 +3,7 @@
     import axios from 'axios';
     import RouterLink from '../components/UI/RouterLink.vue';
     import Heading from '../components/UI/Heading.vue';
+    import Cliente from '../components/UI/Cliente.vue';
 
     const clientes = ref([]);
 
@@ -47,7 +48,11 @@
                   </tr>
                   </thead>
                   <tbody class="divide-y divide-gray-200 bg-white">
-
+                    <Cliente 
+                        v-for="cliente in clientes"
+                        :key="cliente.id"
+                        :cliente="cliente"
+                    />
                   </tbody>
               </table>
           </div>
