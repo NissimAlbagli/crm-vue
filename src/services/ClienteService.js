@@ -10,8 +10,8 @@ export default {
     },
     obtenerCliente(id) {
         // Probar poniento sin string interpolation, tipo /clientes/:id
-        // return api.get(`/clientes/${id}`)
-        return api.get('/clientes/:id')
+        return api.get(`/clientes/${id}`)
+        // return api.get('/clientes/:id')
         
-    }
+    },
 }
