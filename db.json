@@ -1,24 +1,24 @@
 {
   "clientes": [
     {
+      "id": "7d69",
       "nombre": "Nissim",
       "apellido": "Albagli",
       "email": "correo@correo.com",
       "telefono": "123-123-1233",
       "empresa": "Codigo con Juan",
-      "puesto": "Full Stack Developer",
-      "estado": true,
-      "id": "911e"
+      "puesto": "Sucio",
+      "estado": 1
     },
     {
-      "id": "ede3",
-      "nombre": "Nicolas",
-      "apellido": "Albagli",
+      "id": "4cc1",
+      "nombre": "Paulina",
+      "apellido": "Zamorano",
       "email": "correo@correo.com",
       "telefono": "123-123-1233",
       "empresa": "Codigo con Juan",
       "puesto": "Full Stack Developer",
-      "estado": false
+      "estado": 1
     }
   ]
 }
