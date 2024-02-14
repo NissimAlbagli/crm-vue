@@ -28,7 +28,11 @@
     })
 
     const handleSubmit = (data) => {
-        
+        ClienteService.actualizarCliente(id, data)
+            .then(() => router.push({name: 'listado-clientes'}))
+            .catch(error => {
+                console.error('Error al actualizar cliente', error)
+            })
     }
 </script>
 
@@ -46,7 +50,7 @@
             <div class="mx-auto md:w-2/3 py-20 px-6">
             <FormKit
                 type="form"
-                submit-label="Agregar Cliente"
+                submit-label="Guardar Cambios"
                 incomplete-message="No se pudo enviar, revisa los mensajes"
                 @submit="handleSubmit"
                 :value="formData"
