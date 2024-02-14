@@ -7,7 +7,7 @@
       "telefono": "123-123-1233",
       "empresa": "Codigo con Juan",
       "puesto": "Full Stack Developer",
-      "estado": 1,
+      "estado": true,
       "id": "911e"
     },
     {
@@ -18,7 +18,7 @@
       "telefono": "123-123-1233",
       "empresa": "Codigo con Juan",
       "puesto": "Full Stack Developer",
-      "estado": 0
+      "estado": false
     }
   ]
 }
